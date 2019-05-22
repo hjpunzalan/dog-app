@@ -1,16 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Source+Sans+Pro:300,400,700&display=swap');
+
 body {
+  font-family: 'Source Sans Pro',
+    sans-serif;
   margin: 0;
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  background: linear-gradient(100deg, rgba(250, 214, 195, 0.8) 30%, #b0eae8 120%);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
 
 *,

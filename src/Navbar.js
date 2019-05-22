@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink, Link } from 'react-router-dom';
+import './_Navbar.scss';
 
 export default class Navbar extends Component {
 	render() {
@@ -11,9 +12,9 @@ export default class Navbar extends Component {
 			</li>
 		));
 		return (
-			<div>
+			<div className="Navbar">
 				<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-					<Link className="navbar-brand" to="/dogs">
+					<Link className="navbar-brand Navbar__head" to="/dogs">
 						DogApp
 					</Link>
 					<button

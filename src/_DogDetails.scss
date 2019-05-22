@@ -2,5 +2,16 @@
 
     &__img {
         width: 50%;
+        filter: grayscale(1);
+        transition: all .2s;
+
+    }
+
+    &__card:hover &__img {
+        filter: none;
+    }
+
+    &__card {
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
     }
 }
